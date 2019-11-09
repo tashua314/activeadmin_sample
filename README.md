@@ -1,24 +1,8 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# 手順
+1. bundle install
+1. rake db:migrate
+1. rake db:seed
+1. EDITOR=/usr/bin/vi rails credentials:edit
+  - AWSのアクセスキーとシークレットキーを入力
+1. /admin/loginにアクセス
+  - admin@example.com / password (seedに記載）
