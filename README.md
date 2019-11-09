@@ -4,5 +4,6 @@
 1. rake db:seed
 1. EDITOR=/usr/bin/vi rails credentials:edit
   - AWSのアクセスキーとシークレットキーを入力
+
 1. /admin/loginにアクセス
   - admin@example.com / password (seedに記載）
